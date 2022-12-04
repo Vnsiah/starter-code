@@ -2,17 +2,81 @@
   box-sizing: border-box;
 }
 
+
+
 body {
   margin: 0;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  display: grid;
+  gap: 30px;
 }
 .container{
   display: grid;
   grid-template-columns: 25% 75%;
+  gap: 50px;
+  width: 100%;
+  height: 250px;
+  grid-template-rows:1fr 1fr 1fr;
 
 }
+
+
+nav {
+  display: flex;
+  background-color: rgb(223, 205, 255);
+  padding: 15px;
+
+}
+.contant{
+  display: flex;
+  background-color: brown;
+  padding: 20px;
+  background-position: end;
+
+}
+
+.left, .center {
+  height: 50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left, .right {
+  width: 25%;
+
+}
+.center {
+  width: 50%;
+
+}
+
+.center a {
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: arial;
+
+}
+
+.hero-banner{
+  background-color: blanchedalmond;
+  height: 100px;
+  background-image: ;
+  background-position: end;
+
+}
+
+header hi{
+  position: relative;
+  
+  
+}
+
+
 h1,
 h2,
 h3,
