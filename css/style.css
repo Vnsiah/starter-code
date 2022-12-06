@@ -10,7 +10,7 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
   display: grid;
-  gap: 30px;
+  gap: 50px;
 }
 .container{
   display: grid;
@@ -21,14 +21,6 @@ body {
   grid-template-rows:1fr 1fr 1fr;
 
 }
-
-/* .contant{
-  display: flex;
-  background-color: brown;
-  padding: 20px;
-  background-position: end;
-
-} */
 
 .left, .center {
   height: 50px;
@@ -75,6 +67,17 @@ h6 {
 
 p {
   margin: 0;
+}
+
+footer{
+  position: relative;
+  bottom: 0;
+  min-width: 100vw;
+  padding: 20px;
+  background-color: antiquewhite;
+  display: block;
+
+
 }
 header {
   padding: 15px 6% 15px 0;
@@ -147,3 +150,14 @@ nav a:last-child{
   flex-basis: 100%;
 
 }
+
+.hero-banner{
+  padding: 0;
+  margin: 0;
+  background-color: antiquewhite;
+  border: 0px;
+  
+}
+
+
+
